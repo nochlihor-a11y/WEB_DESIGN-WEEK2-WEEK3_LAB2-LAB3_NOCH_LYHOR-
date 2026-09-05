@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+.left-section {
+    flex-grow: 1;
+    background-color: lightblue;
+    min-height: 100vh;
+}
+.right-section {
+    width: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.box {
+    height: 100px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

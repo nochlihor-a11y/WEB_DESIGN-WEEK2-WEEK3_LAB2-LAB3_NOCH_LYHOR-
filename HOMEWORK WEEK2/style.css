@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(233, 233, 239);
+    font-family: 'Roboto' , sans-serif;
+    padding: 40px;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color:blue;
+    margin-bottom: 30px;
+}
+h3 {
+    color:darkblue;
+    margin-bottom: 10px;
+}
+.profile-card h2 {
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #faf1f1;
+    border-radius: 8px;
+    background-color:ivory;
+}
+.profile-card{
+border: 2px solid #ccc;
+}
+.profile-card h2{
+margin-bottom: 10px;
+}
+.bio {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.profile-card ul{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.profile-card li{
+    margin-bottom: 5px;
+}
+#contact-btn {
+    background: #007bff;
+    color: white;
+    border: note;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#contact-btn:hover {
+    background: #0056b3;
+}
